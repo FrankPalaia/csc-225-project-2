@@ -1,0 +1,101 @@
+*{
+    font-family: 'Russo One', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.alert{
+    position:fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav{
+    background:crimson;
+    position: fixed;
+    align-items:center;
+    top:0;
+    width:100%;
+    z-index: 1;
+}
+
+.nav-link{
+    color: white;
+    display: block;
+}
+
+.nav-link:hover{
+    color: gold;
+}
+
+.dropdown-menu{
+    background: crimson;
+}
+
+.dropdown-item{
+    color:white;
+}
+
+.dropdown-item:hover{
+    color: gold;
+    background-color: transparent;
+}
+
+.jumbotron{
+    background: url("../images/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1, p, hr, .lead{
+    color:white;
+    background-color: crimson;
+    text-align: center;
+    font-weight:600;
+}
+
+.row{
+    justify-content: center;
+    position: relative;
+}
+
+.div{
+    position:relative;
+    justify-content: center;
+}
+
+.container{
+    padding: 20px;
+    margin-top:50px;
+    position:relative;
+    justify-content: center;
+}
+
+.container img{
+    height: 426.69px;
+    width: auto;
+    position: relative;
+    justify-content: center;
+}
+
+@media screen and (max-width:1023px) {
+    .container img{
+        height: 426.69px;
+        width: 360px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container img{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:595px) {
+    .jumbotron h1{
+        margin-top: 115px;
+    }
+    .container{
+        margin-top: 115px;
+    }
+}
